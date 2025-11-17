@@ -1,0 +1,516 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "nama": "Makanan"
+    },
+    {
+      "id": "2",
+      "nama": "Minuman"
+    },
+    {
+      "id": "3",
+      "nama": "Cemilan"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "kode": "MKN001",
+      "nama": "Nasi Goreng",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "nasigoreng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": "2",
+      "kode": "MKN002",
+      "nama": "Ayam Geprek",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "ayamgeprek.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": "3",
+      "kode": "MKN003",
+      "nama": "Nasi Bakar",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "nasibakar.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": "4",
+      "kode": "MKN004",
+      "nama": "Bakso",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "bakso.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": "5",
+      "kode": "MKN005",
+      "nama": "Mie Ayam",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "mieayam.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": "6",
+      "kode": "MKN006",
+      "nama": "Nasi Rames",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "nasirames.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": "7",
+      "kode": "MNM001",
+      "nama": "Es Teh Manis",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "estehmanis.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": "8",
+      "kode": "MNM002",
+      "nama": "Jus Alpukat",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "jusalpukat.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": "9",
+      "kode": "MNM003",
+      "nama": "Air Mineral",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "airmineral.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": "10",
+      "kode": "MNM004",
+      "nama": "Kopi Hitam",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "kopihitam.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": "11",
+      "kode": "MNM005",
+      "nama": "Teh Tarik ",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "tehtarik.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": "12",
+      "kode": "MNM006",
+      "nama": "Es Susu Segar",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "essusu.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": "13",
+      "kode": "CMN001",
+      "nama": "Keripik Singkong",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "keripiksingkong.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": "14",
+      "kode": "CMN002",
+      "nama": "Pastel Goreng",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "pastelgoreng.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": "15",
+      "kode": "CMN003",
+      "nama": "Martabak Tahu",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "martabaktahu.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": "16",
+      "kode": "CMN004",
+      "nama": "Risol Mayo",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "risolmayo.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": "17",
+      "kode": "CMN005",
+      "nama": "Risol Bihun",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "risolbihun.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": "18",
+      "kode": "CMN006",
+      "nama": "Kentang Goreng",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "kentanggoreng.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [],
+  "transaksi": [
+    {
+      "id": "TRX-1763399365678",
+      "tanggal": "18/11/2025, 00.09.25",
+      "total_bayar": 10000,
+      "menus": [
+        {
+          "id": "ce51",
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": "13",
+            "kode": "CMN001",
+            "nama": "Keripik Singkong",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "keripiksingkong.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Cemilan"
+            }
+          },
+          "keterangan": ""
+        }
+      ]
+    },
+    {
+      "id": "TRX-1763399466503",
+      "tanggal": "18/11/2025, 00.11.06",
+      "total_bayar": 10000,
+      "menus": [
+        {
+          "id": "9d5e",
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": "3",
+            "kode": "MKN003",
+            "nama": "Nasi Bakar",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "nasibakar.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": ""
+        }
+      ]
+    },
+    {
+      "id": "TRX-1763400211538",
+      "tanggal": "18/11/2025, 00.23.31",
+      "total_bayar": 35000,
+      "metode": "transfer",
+      "diskon_nominal": "1000",
+      "diskon_persen": "10",
+      "menus": [
+        {
+          "id": "9349",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "1",
+            "kode": "MKN001",
+            "nama": "Nasi Goreng",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "nasigoreng.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": ""
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 10000,
+          "product": {
+            "id": "9",
+            "kode": "MNM003",
+            "nama": "Air Mineral",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "airmineral.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "keterangan": "",
+          "id": "461d"
+        },
+        {
+          "id": "96e8",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "8",
+            "kode": "MNM002",
+            "nama": "Jus Alpukat",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "jusalpukat.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "keterangan": ""
+        }
+      ]
+    },
+    {
+      "id": "TRX-1763401861036",
+      "tanggal": "18/11/2025, 00.51.01",
+      "total_bayar": 85500,
+      "metode": "transfer",
+      "diskon_nominal": 0,
+      "diskon_persen": "10",
+      "menus": [
+        {
+          "id": "ad4a",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "1",
+            "kode": "MKN001",
+            "nama": "Nasi Goreng",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "nasigoreng.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": ""
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 20000,
+          "product": {
+            "id": "3",
+            "kode": "MKN003",
+            "nama": "Nasi Bakar",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "nasibakar.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": "",
+          "id": "8d78"
+        },
+        {
+          "id": "dd59",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "2",
+            "kode": "MKN002",
+            "nama": "Ayam Geprek",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "ayamgeprek.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": ""
+        },
+        {
+          "id": "af8a",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "6",
+            "kode": "MKN006",
+            "nama": "Nasi Rames",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "nasirames.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": ""
+        },
+        {
+          "id": "9ccf",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "4",
+            "kode": "MKN004",
+            "nama": "Bakso",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "bakso.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": ""
+        },
+        {
+          "id": "cb97",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "5",
+            "kode": "MKN005",
+            "nama": "Mie Ayam",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "mieayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": ""
+        }
+      ]
+    },
+    {
+      "id": "TRX-1763402014881",
+      "tanggal": "18/11/2025, 00.53.34",
+      "total_bayar": 25000,
+      "metode": "cash",
+      "diskon_nominal": 0,
+      "diskon_persen": 0,
+      "menus": [
+        {
+          "id": "ee4f",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "1",
+            "kode": "MKN001",
+            "nama": "Nasi Goreng",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "nasigoreng.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": ""
+        },
+        {
+          "id": "09a1",
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": "3",
+            "kode": "MKN003",
+            "nama": "Nasi Bakar",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "nasibakar.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": ""
+        }
+      ]
+    }
+  ]
+}
