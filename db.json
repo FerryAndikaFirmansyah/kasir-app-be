@@ -231,7 +231,26 @@
       }
     }
   ],
-  "keranjangs": [],
+  "keranjangs": [
+    {
+      "id": "5197",
+      "jumlah": 1,
+      "total_harga": 5000,
+      "product": {
+        "id": "7",
+        "kode": "MNM001",
+        "nama": "Es Teh Manis",
+        "harga": 5000,
+        "is_ready": true,
+        "gambar": "estehmanis.jpg",
+        "category": {
+          "id": 2,
+          "nama": "Minuman"
+        }
+      },
+      "keterangan": ""
+    }
+  ],
   "pesanans": [],
   "transaksi": [
     {
